@@ -1,0 +1,36 @@
+*{
+    font-family: Roboto;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 50px;
+    position: relative;
+    top: -64px;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+}
+
+.titulo--cabecera{
+    font-size: 32px;
+    color: white;
+    padding: 5px 30px;
+    margin: 12px 0px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.resume--cabecera{
+    color: white;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.categoria--videos{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,48 @@
+.panel {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.imgPanel {
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-azul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 18, 51, 0.56);
+    /* Ajusta la opacidad según sea necesario */
+    pointer-events: none;
+    /* Evita que el overlay bloqueé los eventos del mouse */
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoVideo{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 664px;
+}
+
+.titulo--textoVideo{
+    width: 215px;
+    font-size: 35px;
+    color: white;
+    padding: 5px 32px;
+    margin-bottom: 16px;
+}
+
+.resume--textoVideo{
+    font-size: 20px;
+}
